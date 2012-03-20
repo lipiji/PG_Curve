@@ -24,7 +24,7 @@ set(hStrings,{'Color'},num2cell(textColors,2));  %# Change the text colors
 set(gca,'xticklabel',tick,'XAxisLocation','top');
 
 rotateXLabels(gca, 315 );% rotate the x tick
-
+set(gca, 'XTick', 1:num_class, 'YTick', 1:num_class);
 set(gca,'yticklabel',tick);
 
 
