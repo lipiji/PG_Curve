@@ -8,7 +8,7 @@ You can update yout Matlab or you can find the missing functions(.m files).
 
 
 
-Created by Piji Li (peegeelee@gmail.com)  blog: http://www.shamoxia.com
+ Created by Piji Li (pagelee.sd@gmail.com)   blog: http://www.zhizhihu.com
 IRLab. : http://ir.sdu.edu.cn     
 Shandong University,Jinan,China
 10/1/2010

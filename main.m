@@ -1,9 +1,8 @@
 %  Matlab package for statistics and visualization of classification results and many other problems.
 %  
-%  Author£º Page( Ø§×Ó)
-%           Blog: www.shamoxia.com;
+%  Author£º Created by Piji Li (pagelee.sd@gmail.com)  
+%           Blog: www.zhizhihu.com;
 %           QQ:379115886;
-%           Email: peegeelee@gmail.com
 %  Date:    Dec. 2010
 %% initialization
 clc;
