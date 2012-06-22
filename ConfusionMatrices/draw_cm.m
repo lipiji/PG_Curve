@@ -10,7 +10,7 @@ function draw_cm(mat,tick,num_class)
 %           QQ:379115886;  
 %           Email: peegeelee@gmail.com
 %%
-imagesc(mat);            %# in color
+imagesc(1:num_class,1:num_class,mat);            %# in color
 colormap(flipud(gray));  %# for gray; black for large value.
 
 textStrings = num2str(mat(:),'%0.2f');  
@@ -22,9 +22,9 @@ textColors = repmat(mat(:) > midValue,1,3);
 set(hStrings,{'Color'},num2cell(textColors,2));  %# Change the text colors
 
 set(gca,'xticklabel',tick,'XAxisLocation','top');
-
-rotateXLabels(gca, 315 );% rotate the x tick
 set(gca, 'XTick', 1:num_class, 'YTick', 1:num_class);
 set(gca,'yticklabel',tick);
+rotateXLabels(gca, 315 );% rotate the x tick
+
 
 
